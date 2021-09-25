@@ -1,0 +1,9 @@
+courses_get:
+  path: /users
+  controller: App\Controller\UsersGetController
+  methods:  [GET]
+
+courses_post:
+  path: /users
+  controller: App\Controller\UsersPostController
+  methods:  [POST]
